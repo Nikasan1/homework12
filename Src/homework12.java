@@ -23,8 +23,8 @@ public class homework12 {
         }
         Arrays.sort(attemptArray);
         Arrays.sort(randomArray);
-        System.out.println(Arrays.toString(attemptArray));
-        System.out.println(Arrays.toString(randomArray));
+//        System.out.println(Arrays.toString(attemptArray));  Перевірочні числа
+//        System.out.println(Arrays.toString(randomArray));
         for (int i = 0; i < 7; i++) {
             if (randomArray[i] == attemptArray[i]) {
                 guessedNumber++;
