@@ -18,7 +18,7 @@ public class homework12 {
             attemptArray[i] = scanner.nextInt();
             if (attemptArray[i] > 9) {
                 i--;
-                System.out.println("Ви ввели невірну число! Введіть число від 0 до 9.");
+                System.out.println("Ви ввели невірне число! Введіть число від 0 до 9.");
             }
         }
         Arrays.sort(attemptArray);
